@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container-project">
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="active">Calculator</li>
+                <li><a href="fizzbuzz.html">Fizzbuzz</a></li>
+                <li><a href="roman.html">Roman Numerals</a></li>
+            </ul>
+        </div>
+        <h1>Calculator</h1>
+        <div>
+            <p>
+                Enter a string containing a two-number mathematical operations with +, - , /, or *.
+            </p><div>
+        <div>
+            <form id="calcForm">
+                <label>Enter a calculation
+                    <input type="text" placeholder="Type here" id="inputCalc">
+                </label>
+                <input type="submit" value="Calculate" id="inputButton">
+            </form>
+            <div id="result">
+                
+            </div>
+        </div>
+        <div>
+            <button id = "showCode"> 
+                Show/Hide Code
+            </button>
+            <div id="codeSnippet" style="display:none">
+                <img src="/calculator-pic.png" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>

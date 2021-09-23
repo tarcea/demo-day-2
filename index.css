@@ -1,0 +1,22 @@
+body{
+   background: url("fjordie.jpg") no-repeat center fixed;
+   background-size: cover;
+   /* background-repeat: no-repeat; */
+}
+
+h1 {
+   font-size: 200px;
+   margin: 0;
+   padding-left: 5%;
+}
+
+.headers {
+    position: relative;
+    top: 61%;
+    left: 10%;
+}
+
+.container {
+    height: 100vh;
+    position: absolute;
+}

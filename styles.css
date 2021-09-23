@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+*{
+font-family: 'Lato', sans-serif;
+color: #E0E2DB;
+}
+body {
+    background-color: #121113;
+}
+
+
+ul {
+list-style: none;
+}
+
+.navbar li{
+    display: inline;
+    padding: 0px 30px 0px 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #009FB7;
+}
+
+.active {
+    color: #009FB7;
+}
+.container-project {
+    text-align: center;
+}
